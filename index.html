@@ -14,10 +14,10 @@
 
   <body>
       <header>
-        <div class="container">
-          <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-transparent"> 
+        <div class="container-fluid">
+          <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-dark"> 
             <a href="#" class="navbar-brand">
-              <img src="imagens/logo.png" width="50" height="30">
+              <img src="imagens/logo.png" width="50" height="20">
             </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
@@ -25,50 +25,40 @@
             </button>
             <div class="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarNav">
               <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Início<span class="sr-only">(Página atual)</span></a>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">SERVIÇOS</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Serviços</a>
+                  <a class="nav-link" href="#">PORTIFÓLIO</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Portifólio</a>
+                  <a class="nav-link" href="#">SOBRE</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Nossa História</a>
+                  <a class="nav-link" href="#">TIME</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Equipe</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Parceiros</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contato</a>
+                  <a class="nav-link" href="#">CONTATO</a>
                 </li>
               </ul>
             </div>
           </nav>
         </div>
 
-          <div class="container">
-            <h1 class="pt-5 centro">NÃO IMPORTA ONDE <br> CURSOS ONLINE</h1>
-            <h4 class="centro">Expande agora o seu conhecimento na área de tecnologia</h4>
-            <div class="container">
-              <div class="row">
-                <div class="col">
-                  <button class="btn btn-secondary btn-lg centro">
-                    MATRICULE-SE JÁ!
-                  </button>
-                </div>
-              </div>
+          <div id="texto-inicial">
+            <div class="container-fluid">
+            <h1>NÃO IMPORTA ONDE CURSOS ONLINE</h1>
+            <h4>Expande agora o seu conhecimento na área de tecnologia</h4>
+              <button class="btn btn-primary btn-lg">
+                MATRICULE-SE JÁ!
+              </button>
             </div>
           </div>
-        </header>
+      </header>
 
           <section class="pb-5" id="services">
-            <h2 class="text-center pt-5">NOSSO SERVIÇOS</h2>
-            <p class="text-center">Confira tudo o que podemos te oferecer</p>
+            <h2 class="text-center pt-5">NOSSOS SERVIÇOS</h2>
+            <p class="text-center text-muted">Confira tudo o que podemos te oferecer</p>
             <div class="container text-center">
               <div clas="table-responsive">
               <table class="table table-borderless">
@@ -93,7 +83,7 @@
 
           <section id="courses">
             <h2 class="text-center pt-5">Portifólio</h2>
-            <p class="text-center">Apresentamos alguns dos nossos cursos</p>
+            <p class="text-center text-muted">Apresentamos alguns dos nossos cursos</p>
             <div class="container text-center">
               <div clas="table-responsive">
               <table class="table table-borderless">
@@ -138,7 +128,8 @@
 
 
           <section id="about">
-            <h2 class="text-center my-5 pt-5">NOSSA HISTÓRIA</h2>
+            <h2 class="text-center pt-5">NOSSA HISTÓRIA</h2>
+            <p class="text-center text-muted pb-5">Conheça um pouco da nossa história</p>
             <div class="container pb-5">
               <div class="main-timeline">
                 <div class="timeline">
@@ -227,37 +218,32 @@
             </div>
           </section>
 
-          <section class="pt-5">
+          <section class="pt-5 pb-5">
             <h2 class="text-center">NOSSA EQUIPE</h2>
-            <p class="text-center">Conheça os nossos professores qualificados</p>
+            <p class="text-center text-muted">Esses são os nossos professores qualificados</p>
             <div class="container text-center">
               <div clas="table-responsive">
               <table class="table table-borderless">
                 <thead>
                   <tr>
-                    <th scope="col"><img class="img-fluid imagem-table" src="imagens/prof1.jpg" width="100" height="100"></th>
-                    <th scope="col"><img class="img-fluid imagem-table" src="imagens/prof2.jpg" width="100" height="100"></th>
-                    <th scope="col"><img class="img-fluid imagem-table" src="imagens/prof3.jpg" width="100" height="100"></th>
-                    <th scope="col"><img class="img-fluid imagem-table" src="imagens/prof4.jpg" width="100" height="100"></th>
+                    <th scope="col"><img class="img-fluid imagem-table" src="imagens/prof1.jpg" width="50%" height="50%"></th>
+                    <th scope="col"><img class="img-fluid imagem-table" src="imagens/prof2.jpg" width="50%" height="50%"></th>
+                    <th scope="col"><img class="img-fluid imagem-table" src="imagens/prof3.jpg" width="50%" height="50%"></th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
                     <td>Vitória Cardoso
                       <p class="text-muted">Programadora front-end</br>
-                        <img src="imagens/twitter.webp" width="30" height="30"> <img src="imagens/instagram.webp" width="30" height="30"> <img src="imagens/linkedin.png" width="30" height="30"></p> 
+                        <img src="imagens/twitter.webp" width="20" height="20"> <img src="imagens/instagram.webp" width="20" height="20"> <img src="imagens/linkedin.png" width="20" height="20"></p> 
                     </td>
                     <td>Bruno Henrique
                       <p class="text-muted">Desenvolvedor full-stack</br>
-                        <img src="imagens/twitter.webp" width="30" height="30"> <img src="imagens/instagram.webp" width="30" height="30"> <img src="imagens/linkedin.png" width="30" height="30"></p></td>
+                        <img src="imagens/twitter.webp" width="20" height="20"> <img src="imagens/instagram.webp" width="20" height="20"> <img src="imagens/linkedin.png" width="20" height="20"></p></td>
                     <td>Maria Júlia
                       <p class="text-muted">Desenvolvedora mobile</br>
-                        <img src="imagens/twitter.webp" width="30" height="30"> <img src="imagens/instagram.webp" width="30" height="30"> <img src="imagens/linkedin.png" width="30" height="30">
+                        <img src="imagens/twitter.webp" width="20" height="20"> <img src="imagens/instagram.webp" width="20" height="20"> <img src="imagens/linkedin.png" width="20" height="20">
                     </p></td>
-                    <td>Miguel Almeida
-                      <p class="text-muted">Especialista em JavaScript</br>
-                        <img src="imagens/twitter.webp" width="30" height="30"> <img src="imagens/instagram.webp" width="30" height="30"> <img src="imagens/linkedin.png" width="30" height="30">
-                        </p></td>
                   </tr>
                 </tbody>
               </table>
@@ -265,28 +251,51 @@
             </div>
           </section>
 
-          <section id="parceiros">
+          <section class="pb-5" id="parceiros">
+            <div class="container-fluid">
             <img id="imgCinza" src="imagens/empresa1.png" width="100" height="100">
             <img id="imgCinza" src="imagens/empresa2.png" width="200" height="200">
             <img id="imgCinza" src="imagens/empresa3.png" width="100" height="100">
-            <img id="imgCinza" src="imagens/empresa4.webp" width="100" height="100">
+            </div>
           </section>
 
           <section class="pt-5" id="contact">
-            <h2 class="text-center">NOS CONTATE</h2>
-            <p>O seu feedback é muito valioso para nós.</p>
-            <form class="pt-5">
-              <label for="fname">First name:</label><br>
-              <input type="text" id="fname" name="fname"><br>
-              <label for="lname">Last name:</label><br>
-              <input type="text" id="lname" name="lname">
+            <h2>NOS CONTATE</h2>
+            <p class="text-muted pb-5">Estamos aqui para responder quaisquer dúvidas.</p>
+            <form name="formteste" action="" method="post">
+              <p class="nome">
+                <input type="text" name="nome" placeholder="informe seu nome" required="required">
+              </p>
+              <p class="email">
+                <input type="email" name="email" placeholder="informe seu email" required="required">
+              </p>
+              <p class="assunto">
+                <input type="text" name="assunto" placeholder="informe o assunto" required="required">
+              </p>
+              <p class="mensagem">
+                <textarea name="mensagem" placeholder="deixe sua mensagem"></textarea>
+              </p>
+              <p class="enviar">
+                <input type="submit" name="enviar" value="Enviar">
+              </p>
             </form>
           </section>
+
+          <footer>
+            <div class="footer-copyright text-center py-3 text-muted">©2020. NIO
+            </div>
+          </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+      $(window).scroll(function() {
+        $('nav').toggleClass('scrolled', $(this).scrollTop() > 550);
+        });
+    </script>
+  
   </body>
 </html>
