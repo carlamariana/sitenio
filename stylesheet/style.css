@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-image: url(../imagens/tiback.jpg);
+    background-image: url(../imagens/inicio.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height:100vh;
@@ -23,23 +23,13 @@ div#texto-inicial {
     margin-right: 5%;
 }
 
-.navbar {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-decoration: white !important;
-}
-
-.navbar-light {
-    text-decoration: white;
-    color: white !important;
-}
-
 .bg-dark {
     transition: 750ms ease;
-    background: transparent !important;
+    background: rgb(0,0,0,0.5) !important;
 }
 
 .bg-dark.scrolled {
-    background: #ADD8E6 !important;
+    background:#0087bd  !important;
 }
 
 .timeline {
@@ -50,6 +40,13 @@ div#texto-inicial {
 
 section#services {
     background-color:  #EBF4FA;
+    text-align: center;
+    align-items: center;
+}
+
+section#courses {
+    text-align: center;
+    align-items: center;
 }
 
 section#about {
@@ -62,8 +59,15 @@ section#parceiros {
     text-align: center;
 }
 
+section#equipe {
+    text-align: center;
+    align-items: center;
+}
+
 img#imgCinza {
     filter: grayscale(100%);
+    width: 15%;
+    height: 15%;
 }
 
 section#contact {
@@ -77,12 +81,12 @@ section#contact {
     text-align: center;
 }
 
-.div.table-responsive{
-    width: 100% !important;
+.table-responsive{
+    width: 100%;
 }
 
 table {
-    width: 50% !important;
+    width: 100% !important;
     margin: auto;
     color: white;
 }
@@ -108,7 +112,7 @@ img {
     clear: both;
 }
 
-img.imagem-table{
+img.imagem-equipe{
     border-radius: 50%;
 }
 
@@ -144,8 +148,6 @@ input, textarea{
 .enviar input {
     display: inline;
     background-color: #069;
-    height: 50%;
-    width: 50%;
     font-weight: bold;
     border-radius: 5px;
     -webkit-border-radius: 5px;
