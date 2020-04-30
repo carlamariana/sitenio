@@ -8,7 +8,6 @@ header {
     background-image: url(../imagens/inicio.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height:100vh;
     min-height:500px;
     text-align: center !important;
     display: flex;
@@ -74,7 +73,6 @@ section#contact {
     background-image: url(../imagens/contact-us.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height:100vh;
     min-height:600px;
     text-align: center !important;
     color:white;
