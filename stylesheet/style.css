@@ -9,7 +9,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     height:100vh;
-    min-height:400px;
+    min-height:500px;
     text-align: center !important;
     display: flex;
     justify-content: center;
@@ -20,7 +20,7 @@ div#texto-inicial {
     color:white;
     text-align: center;
     font-weight: bold;
-    margin-right: 5%;
+    margin-right: 10%;
 }
 
 .bg-dark {
@@ -75,7 +75,7 @@ section#contact {
     background-repeat: no-repeat;
     background-size: cover;
     height:100vh;
-    min-height:400px;
+    min-height:600px;
     text-align: center !important;
     color:white;
     text-align: center;
@@ -135,8 +135,8 @@ form.formulario {
 
 form {
     font-size: 16px;
-    margin: 0 auto;
-    padding: 0 10px 10px 10px;
+    margin: 0;
+    padding: 0;
     
 }
 
